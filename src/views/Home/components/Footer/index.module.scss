@@ -1,0 +1,53 @@
+@import "../../../../assets/styles/colors.scss";
+
+.footerRoot {
+  display: flex;
+  flex-direction: column;
+  height: 209px;
+  border-top: 1px solid $light-gray-xxx;
+  padding-top: 8px;
+  .imagePreviewArea {
+    height: 170px;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    .controlArea {
+      height: 30px;
+      display: flex;
+      .button {
+        font-size: 12px;
+        padding: 0px 8px;
+        margin-right: 12px;
+      }
+    }
+    .imageArea {
+      flex: 1;
+      .list{
+        height: 100%;
+        max-height: 100%;
+        display: flex;
+        align-items: center;
+        padding: 8px 0px;
+      }
+    }
+  }
+  .infoArea {
+    height: 30px;
+    border-top: 1px solid $light-gray-xxx;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .deviceConnectInfoArea {
+
+    }
+    .systemInfoArea {
+      .info {
+
+      }
+      .divider {
+        background-color: $light-gray-xxx;
+      }
+    }
+  }
+}

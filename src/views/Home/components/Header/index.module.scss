@@ -1,0 +1,21 @@
+@import "../../../../assets/styles/colors.scss";
+
+.headerRoot {
+  padding: 0px 16px;
+  height: 48px;
+  border-bottom: 1px solid $light-gray-xxx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logo {
+    width: 32px;
+    height: 32px;
+  }
+  .button {
+    padding: 0px 12px;
+    font-size: 14px;
+  }
+  .divider {
+    background-color: $light-gray-xxx;
+  }
+}

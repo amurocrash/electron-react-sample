@@ -1,0 +1,52 @@
+@import "../../../../assets/styles/colors.scss";
+
+.stepIndicatorRoot {
+  position: relative;
+  width: 316px;
+  height: 100%;
+  border-right: 1px solid $light-gray-xxx;
+  padding-right: 16px;
+  overflow-y: hidden;
+
+  .stepDetailArea {
+    flex: 1;
+    .title {
+      font-size: 16px;
+      text-align: center;
+      margin: 8px 0px;
+      font-weight: bold;
+    }
+    .list {
+      .image {
+
+      }
+    }
+  }  
+
+  .controlArea{
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    padding-right: 16px;
+    .buttonArea {
+      width: 100%;
+      display: flex;
+      .buttonCaputre {
+        flex: 6;
+        text-align: center;
+      }
+      .buttonNextStep {
+        flex: 1;
+        text-align: center;
+        font-size: 12px;
+      }
+    }
+    .hint {
+      width: 100%;
+      text-align: center;
+      font-size: 13px;
+      color: $main-red;
+      margin-top: 8px;
+    }
+  }
+}

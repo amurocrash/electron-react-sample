@@ -1,0 +1,22 @@
+@import "../../assets/styles/colors.scss";
+
+.homeRoot {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .headerArea {
+    height: 48px;
+  }
+
+  .contentArea {
+    flex: 1;
+    display: flex;  
+    padding: 0 16px;
+  }
+
+  .footerArea {
+    height: 209px;
+  }
+}
